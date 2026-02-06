@@ -1,0 +1,84 @@
+/*
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+*/
+
+body {
+    font-family: "Arvo", serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+.site-header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.post {
+    background: rgb(242, 242, 242);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+article {
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+
+.post h3 {
+    margin-top: 0;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}

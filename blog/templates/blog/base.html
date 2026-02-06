@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>{% block title %}Mi Blog{% endblock %}</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'blog/css/style.css' %}">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <h1>📝 Mi primer blog en las nubes</h1>
+    </header>
+
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+        <p>Fran escribe por y para de escribir</p>
+    </footer>
+
+</body>
+
+</html>

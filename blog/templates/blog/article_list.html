@@ -1,0 +1,20 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}Artículos{% endblock %}
+
+{% block content %}
+    <h2>Artículos publicados</h2>
+
+    <div class="container">
+    {% for article in articles %}
+        <article class="post">
+            <h3>{{ article.title }}</h3>
+            <p>{{ article.content|truncatewords:30 }}</p>
+            <small>✍️ {{ article.author }} · {{ article.created_at }}</small>
+        </article>
+    {% empty %}
+        <p>No hay artículos todavía.</p>
+    {% endfor %}
+    </div>
+{% endblock %}
+
