@@ -10,3 +10,4 @@ def article_list(request):
     return render(request, 'blog/article_list.html', {
         'articles': articles
     })
+

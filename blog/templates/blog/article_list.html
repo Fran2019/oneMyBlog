@@ -3,13 +3,13 @@
 {% block title %}Artículos{% endblock %}
 
 {% block content %}
-    <h2>Artículos publicados</h2>
+    <h1 class="page-title">Latest Articles</h1>
 
     <div class="container">
     {% for article in articles %}
-        <article class="post">
+        <article class="card">
             <h3>{{ article.title }}</h3>
-            <p>{{ article.content|truncatewords:30 }}</p>
+            <p>{{ article.content|truncatewords:400 }}</p>
             <small>✍️ {{ article.author }} · {{ article.created_at }}</small>
         </article>
     {% empty %}

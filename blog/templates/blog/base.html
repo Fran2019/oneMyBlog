@@ -17,17 +17,60 @@
 
 <body>
 
-    <header class="site-header">
-        <h1>📝 Mi primer blog en las nubes</h1>
-    </header>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <a href="/">Pirotechnitian 🚀</a>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About another</a></li>
+                <li><a href="#">Contact less</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <main class="container">
         {% block content %}{% endblock %}
     </main>
 
-    <footer class="site-footer">
-        <p>Fran escribe por y para de escribir</p>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h3>Pirotechnitian</h3>
+                <p>A Pirotechnitian writes to and for... and stops writing.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Blog</a>
+                <a href="#">About another</a>
+                <a href="#">Contact-less</a>
+            </div>
+
     </footer>
+
+
+    <script>
+
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("nav-links");
+
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+            hamburger.classList.toggle("active");
+            document.body.classList.toggle("no-scroll");
+        });
+    </script>
 
 </body>
 

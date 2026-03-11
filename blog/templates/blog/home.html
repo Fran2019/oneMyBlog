@@ -1,0 +1,21 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}Home | Mi Blog{% endblock %}
+
+{% block content %}
+
+<h2 style="margin-bottom:2rem;">Últimos artículos</h2>
+
+<div class="blog-grid">
+
+    {% for article in articles %}
+        <div class="card">
+            <h3>{{ article.title }}</h3>
+            <p>{{ article.content|truncatewords:20 }}</p>
+            <p><small>{{ article.created_at }}</small></p>
+        </div>
+    {% endfor %}
+
+</div>
+
+{% endblock %}
