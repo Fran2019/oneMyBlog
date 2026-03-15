@@ -1,0 +1,23 @@
+{% extends "blog/base.html" %}
+
+{% block title %}
+{{ article.title }}
+{% endblock %}
+
+{% block content %}
+
+<div class="article-container">
+
+    <h1>{{ article.title }}</h1>
+
+    <p class="article-meta">
+        Published: {{ article.created_at }}
+    </p>
+
+    <div class="article-content">
+        {{ article.content }}
+    </div>
+
+</div>
+
+{% endblock %}
