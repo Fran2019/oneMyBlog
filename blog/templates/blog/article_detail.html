@@ -15,8 +15,11 @@
     </p>
 
     <div class="article-content">
-        {{ article.content }}
+        <p>{{ article.content }}</p>
     </div>
+    <a href="{% url 'article_list' %}" class="back-link">
+        ← Back to Blog
+    </a>
 
 </div>
 

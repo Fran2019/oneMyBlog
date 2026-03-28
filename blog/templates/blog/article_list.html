@@ -3,18 +3,22 @@
 {% block title %}Artículos{% endblock %}
 
 {% block content %}
-    <h1 class="page-title">Latest Articles</h1>
+    <h1 class="page-title">Articles somehow</h1>
 
     <div class="container">
     {% for article in articles %}
         <article class="card">
             <h3>
-                <a href="{% url 'article_detail' article.slug %}">
-                    {{ article.title }}
+                <a href="{% url 'article_detail' article.slug %}" class="card-link">
+                    <div class="card">
+                        <h3>{{ article.title }}</h3>
+                        <p>{{ article.content|truncatewords:40 }}</p>
+                        <small>✍️ {{ article.author }} · {{ article.created_at }}</small>
+                    
+                        <br><span class="read-more">Read it all -></span>
+                    </div>
                 </a>
             </h3>
-            <p>{{ article.content|truncatewords:400 }}</p>
-            <small>✍️ {{ article.author }} · {{ article.created_at }}</small>
         </article>
     {% empty %}
         <p>No hay artículos todavía.</p>
