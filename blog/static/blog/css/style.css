@@ -64,9 +64,10 @@ p {
 
 .nav-content {
   display: flex;
+  height: 120px;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   gap: 15px;
 }
 
@@ -233,12 +234,12 @@ main {
   text-decoration: none;
   color:inherit;
   display: block;
-  cursor: pointer;
 }
 
 .read-more {
   display: inline-block;
   color: var(--light-blue-hover);
+  
   font-family: "Arvo", serif;
   font-size: 0.9rem;
   font-weight: 300;
@@ -249,6 +250,7 @@ main {
 
 .read-more:hover {
   transform: translateX(10px);
+  cursor: pointer;
 }
 
 
@@ -267,6 +269,15 @@ main {
 .back-link:hover {
   transform: translateX(-10px);
 }
+
+
+/* Images div style */
+.article-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
 
 
 /* === FOOTER - MOBILE === */
