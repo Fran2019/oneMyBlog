@@ -28,7 +28,7 @@ DEBUG = os.environ.get('DEBUG', 'True').lower() == 'true'
 
 
 # Permitir localhost en local y tu dominio de Render en producción
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'onemyblog.onrender.com']  # <-- Tu dominio de Render agregado]
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
