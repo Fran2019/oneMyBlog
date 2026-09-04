@@ -1,0 +1,35 @@
+[
+{
+  "model": "blog.article",
+  "pk": 1,
+  "fields": {
+    "title": "Sociotaxiologo",
+    "slug": "sociotaxiologo",
+    "content": "La tarde noche de un taxista comienza al momento de seleccionar la camisa más cómoda para soportar unas 10 horas. Una camisa, que además debe ser sobria y dar un aspecto profesional. Radio encendida, con un tono adecuado para no molestar. Guantera pulcramente acomodada, lleva diferentes frascos con remedios, y utensilios gastronómicos plásticos varios, aderezoz bien apilados, y hasta pañuelos. En fin, son horas sentado, que solo interrumpen el cafe, la recogida de alguna vianda o la asistencia de equipaje a los viajeros.\r\n\r\nYo soy conductor, pero también tengo media carrera de medicina, la deje por desilución. Nunca creí que la ciencia era tratada con tanta holgazanería, y que vería manejos de dinero tan similares a los que podía lograr un corredor de bolsa. Así que antes de asquearme pasé a economía, que creí sería mas genuina. Es como afirmar publicamente que al menos no estaré mal económicamente.",
+    "image": "",
+    "created_at": "2026-02-02T18:31:49.422Z"
+  }
+},
+{
+  "model": "blog.article",
+  "pk": 2,
+  "fields": {
+    "title": "Me gustaría que escriesen un artículo sobre mí",
+    "slug": "me-gustaria-que-escriesen-un-articulo-sobre-mi",
+    "content": "- El otro día veía en un artículo de una revista el tema de ese político guerrillero que le tienen miedo porque anda amedrentando con sus palabras en la tv, y le preguntan cosas, lo invitan a dar explicaciones.\r\nYo digo, y yo?... que vengo de estudiar, que vengo de hacer consultoría, que análiso negocios... a nadie se le ocurre pensar que tengo yo en mi mente. ¿Que quiero o que tengo en mente?.\r\nBueno, resulta que ni en la radio del barrio. Me acerque el otro día a la radio, que está en el edificio nuevo que da al río. Pusieron una radio hermosa, por fuera al menos se ve, y también por las fotos que vi que ponen en Instagram.\r\nClaro, el tema es que edificio nuevo ya viene con vigilancia. Te piden el DNI y peor, te preguntan a dónde vas, y quien sos. Imaginate! me tengo que inventar algo, para subir, siendo que la idea no es presentarme para que luego ellos, digo, los periodistas o los editores de ahí, atinen a preguntarse que quiero yo realmente, sin saber antes quien soy. Y, además, sería una entrevista muy improvisada, por momentos violenta.\r\n\r\n- Te entiendo Carlos. El tema es que esa gente yo creo que arma una estrategia en su vida. Se crea un personaje. No es tan fácil. No solo tenes que ser alguien. Esa gente tiene una displicencia política, un refinamiento hacia la opinión pública. Me entendes?\r\n\r\n- Yo, ponele, ando buscando que me pregunten, al menos los mozos del bar del hotel Savoy, a que me dedico. Y nada. El otro día, me tomé cuatro cafés. No uno, ni dos, ni tres. Me tomé cuatro. Cambiándome de mesa incluso una vez. Nada che. Los mozos vienen, te preguntan qué vas a consumir, y nada mas. Están muy enfocados ahora en la presencia, y en los modales de restauración, viste?. Yo tampoco les puedo andar resaltando mi privacidad. Puse tres libros, tapa dura, uno arriba del otro, y un par de hojas con correcciones encima. A ver que pasaba... Nada.\r\n\r\n- Si, yo me cansé de leer artículos que podrían estar dirigidos a mi persona. Encima, los que escriben... Dios mio. Repiten palabras básicas, frases coloquiales y hasta callejeras. No se, quizas sienta lo mismo que yo un deportista cuando está toda la temporada en el banco de suplentes.",
+    "image": "",
+    "created_at": "2026-03-27T19:56:23.571Z"
+  }
+},
+{
+  "model": "blog.article",
+  "pk": 3,
+  "fields": {
+    "title": "Mi ensayo académico luego de caer por la ventana",
+    "slug": "mi-ensayo-academico-luego-de-caer-por-la-ventana",
+    "content": "ería mas serio contar el proceso de realización de un trabajo a entregar un jueves, que la caída de la ventana de la cocina-comedor diario, mientras terminaba ese trabajo. Como hice para terminarlo me refiero. La cuestión es que cuando uno cae sobre unos cajoncitos de manzana con un poco de carbón sobrante del último asado y algo de ropa dispersa por el viento de aquellos días, se torna extraña la reincorporación. Sucio, desalineado y con algunos dolores.\r\n\r\nA todo esto, las hojas del ensayo quedaron arriba, en la mesita cuadrada de la cocina. Algún peligro corre la hoja que quedó cerca de la hornalla, teniendo en cuenta que el fuego siempre lo dejo encendido, aunque en el mínimo para dar toques de calor a la pava, cuando no para recuperar la temperatura en mis manos. Suena entonces en mi mente “I live for you” de mi querido George, la parte del Solo de Slide (cuando no, yo musicalizando mis fracciones de vida). Esta canción me fortalece en mi papel de victima de acontecimiento fatal, y afianza mis convicciones de lucha contra una causa relativamente intrascendente. Solo peligra la página cercana a la hornalla, que suele ser siempre la mas importante.\r\n\r\nOtra cosa que me pasa al instante es ver el diseño de un collage perfectamente conformado por hojas del alcanfor del vecino, magulladas delicadamente por hormigas obreras, (sin cascos), y un césped húmedo, y un poco quemado por el sol ecuatorial. En el trasfondo veo a mi tutora hablando metafóricamente de las exigencias del titular de la cátedra, cuyas maneras intentan implícitamente sembrar el pánico académico pertinente.\r\n\r\nVolviendo mi mente a la vida cotidiana, ajetreada y desafortunada, logro visualizar el camino de regreso al ático del castillo. Imagino lo que me costará subir esa escalera, con cuya baranda no podría contar para usar de polea rústica, y así avanzar con pasos cortos y rodillas flexionadas en diagonal hacia arriba. Creo que ahora suena Charly. Su melancolía me acompaña, el coro me da la sensación de que ya somos tres en la escena. Y a la mitad del tema mi cuerpo genera la adrenalina que me da el aventón para llegar arriba.\r\n\r\nMe incorporo de rodillas rápidamente, ya que sentarse antes sería una perdida de tiempo, no en vano pero si para tal ocasión. Sentarse amerita a reflexionar y proyectar nuevos escenarios que requieren mucho trabajo mental, por tal, un desgaste descomunal, y un consecuente vacío mental que provocaría una hambruna tal que me dejaría, en este momento, inconsciente tirado en el suelo.\r\n\r\nEn la alacena guarda mi familia una caja de zapatos, que ya deben estar alcanzando la edad de jubilación de mas de algún vecino. Allí encuentro varios remedios, todos mezclados, distintas cajas y dispensers. Es a un hipocondríaco lo que una whiskería para un dipsómano. Yo solo voy por el Ibuprofeno. Y como siempre empeño mi tiempo en generar conjeturas complicadas ya pienso que tendré que ducharme antes de continuar el ensayo, que por cierto, a esta altura tendría que repasarlo otra vez, para saber que venia escribiendo, y para controlar si mi sentido común aún sigue intacto.",
+    "image": "",
+    "created_at": "2026-03-27T20:00:11.253Z"
+  }
+}
+]
