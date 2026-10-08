@@ -8,7 +8,10 @@ class Article(models.Model):
     slug = models.SlugField(unique=True, blank=True)
 
     content = models.TextField()
-    image = models.ImageField(upload_to='articles/', blank=True, null=True)
+    image = models.ImageField(
+        upload_to='articles/', 
+        blank=True, 
+        null=True)
 
     created_at = models.DateTimeField(auto_now_add=True)
     

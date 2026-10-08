@@ -11,6 +11,15 @@ venv/
 Venv/
 .env
 
+# Environment variables
+.env
+
+# Media files
+media/
+
+# VS Code
+.vscode/
+
 # OS / editor
 .DS_Store
 .vscode/
